@@ -1,0 +1,15 @@
+.contact{
+    background-color:rgb(255, 252, 248);
+ }
+ 
+ .conatctimg{
+   height:50vh;
+   width:40vw;
+ }
+ 
+ @media (max-width:768px){
+   .conatctimg{
+     height:50vh;
+     width:50vw;
+   }
+ }

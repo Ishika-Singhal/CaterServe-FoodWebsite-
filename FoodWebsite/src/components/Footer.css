@@ -1,0 +1,9 @@
+.footerdata:hover{
+    color:var(--bs-primary);
+  }
+
+  .footer{
+    background: #fffbf5;
+    border-top:1px solid rgb(196, 196, 196);
+    
+  }

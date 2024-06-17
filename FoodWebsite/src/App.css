@@ -1,0 +1,45 @@
+:root{
+  --yellow: #D4A762;
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+.btn{
+  background-color:var(--yellow);
+  padding:10px 10px;
+}
+
+.btn:hover{
+  background-color:black;
+  color:white;
+}
+
+@keyframes bounceInUp {
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1000px, 0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+}
